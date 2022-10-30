@@ -1,0 +1,11 @@
+<h1>Books</h1>
+
+ <p>タイトル</p>
+  
+<h2>New book</h2>
+
+<form class="new_book" id="new_book" action="/books" accept-charset="UTF-8" method="post">
+    <% @books.each do |book| %>  
+<p> <%= books.title %></p>
+<% end %>
+
